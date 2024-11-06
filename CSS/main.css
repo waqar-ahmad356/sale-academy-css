@@ -12,7 +12,11 @@
 }
 
 /*-------------------navbar-----------------------*/
-
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 92px;
+}
 .navbar {
   background-color: #f3f3f5;
 }
@@ -33,6 +37,7 @@
 }
 
 .nav-btn {
+    
   display: flex;
   height: 52px;
   padding: 16px;
