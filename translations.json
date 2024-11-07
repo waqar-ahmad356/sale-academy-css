@@ -1,0 +1,19 @@
+{
+    "en": {
+      "home": "Home",
+      "employmentAgency": "For Employment Agencies",
+      "teachingTeam": "The Teaching Team",
+      "courseStructure": "Course Structure",
+      "partners": "Partner",
+      "nonBindingInquiry": "Non-Binding Inquiry"
+    },
+    "de": {
+      "home": "Startseite",
+      "employmentAgency": "Für Arbeitsagenturen",
+      "teachingTeam": "Das Lehrteam",
+      "courseStructure": "Kursstruktur",
+      "partners": "Partner",
+      "nonBindingInquiry": "Unverbindliche Anfrage"
+    }
+  }
+  
