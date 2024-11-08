@@ -186,8 +186,304 @@
   }
   
 
-  
+  /*------------------------hero emp section---------------------------*/
+.hero-emp-section {
+  padding: 0px;
+}
+.hero-bg-img {
+  background-image: url(/assets/partner-hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 
+  flex-direction: column;
+}
+.hero-content .hero-btn {
+  padding: 6px 16px;
+
+  color: var(--body-white, #fbfbfb);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  border-radius: 36px;
+  border: 1px solid var(--Nuetral-nuetral-100, #d9dadf);
+}
+.hero-partner-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.hero-content .hero-heading {
+  color: var(--Global-white, var(--Global-white, #fff));
+  text-align: center;
+
+  /* Display 3/Semibold */
+  font-family: "Fira Sans";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px; /* 122.727% */
+  letter-spacing: -0.88px;
+  max-width: 1111px;
+}
+.hero-partner-description .description{
+  color: var(--Global-white, var(--Global-white, #FFF));
+text-align: center;
+
+/* Text 3/Regular */
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+max-width: 818px;
+
+}
+/*---------------------responsive--------------------*/
+@media (max-width: 768px) {
+  .hero-emp-section {
+    padding: 0px;
+  }
+  .hero-content {
+    padding: 65px 32px;
+  }
+}
+@media (max-width: 521px) {
+  .hero-emp-section {
+    padding: 0px;
+  }
+  .hero-bg-img {
+    min-height: 80vh;
+  }
+  .hero-description {
+    max-width: 353px;
+  }
+  .hero-content {
+    padding: 65px 0px;
+  }
+}
+/*-----------------------course modules section------------------*/
+.course-modules-section{
+  padding: 80px 80px 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+.course-modules-head{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.course-modules-head .course-modules-btn{
+  border-radius: 36px;
+border: 1px solid var(--Nuetral-nuetral-100, #D9DADF);
+padding: 6px 16px;
+color: var(--Neutral-neutral-800, var(--Nuetral-nuetral-800, #484A54));
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.course-modules-head .course-modules-heading{
+  color: var(--Global-black, #181818);
+
+/* Display 3/Semibold */
+font-family: "Fira Sans";
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 122.727% */
+letter-spacing: -0.88px;
+}
+.course-modules-description .description{
+  color: var(--Neutral-neutral-900, var(--Nuetral-nuetral-900, #373940));
+
+/* Text 3/Regular */
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+max-width: 950px;
+}
+/*-------------------responsive------------------*/
+@media (max-width:768px){
+  .course-modules-section{
+    padding: 50px;
+  }
+}
+@media (max-width:768px){
+  .course-modules-section{
+    padding: 24px 16px;
+  }
+}
+/*-------------------------------efficient-partners-section-------------------*/
+.efficient-partners-section{
+  padding: 0px 80px 80px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.moss-financial-management-section{
+  display: flex;
+ 
+  align-items: flex-start;
+  padding: 24px;
+  gap: 40px;
+  width: 100%;
+  border-radius: var(--border-redius-xxlg, 24px);
+border: 1px solid var(--Nuetral-nuetral-50, #F3F3F5);
+background: rgba(243, 243, 245, 0.30);
+}
+.moss-right{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+.moss-right h3{
+  color: var(--Global-black, #181818);
+
+/* Display 2/Semibold */
+font-family: "Fira Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px; /* 126.667% */
+margin-bottom: 0;
+}
+.moss-right p{
+  color: var(--Neutral-neutral-900, var(--Nuetral-nuetral-900, #373940));
+
+/* Text 3/Regular */
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-bottom: 0;
+max-width: 687px;
+}
+.sender-digital-logic-section{
+  display: flex;
+ 
+  align-items: flex-start;
+  padding: 24px;
+  gap: 40px;
+  border-radius: var(--border-redius-xxlg, 24px);
+border: 1px solid var(--Nuetral-nuetral-50, #F3F3F5);
+background: rgba(243, 243, 245, 0.30);
+  
+}
+.send-left{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+
+}
+.sender-left h3{
+  color: var(--Global-black, #181818);
+
+/* Display 2/Semibold */
+font-family: "Fira Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px; /* 126.667% */
+margin-bottom: 0;
+}
+.sender-left p{
+  color: var(--Neutral-neutral-900, var(--Nuetral-nuetral-900, #373940));
+
+/* Text 3/Regular */
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-bottom: 0;
+max-width: 687px;
+}
+.cosuno-construction-management-section{
+  display: flex;
+ 
+  align-items: flex-start;
+  padding: 24px;
+  gap: 40px;
+  border-radius: var(--border-redius-xxlg, 24px);
+border: 1px solid var(--Nuetral-nuetral-50, #F3F3F5);
+background: rgba(243, 243, 245, 0.30);
+width: 100%;
+}
+.cosuno-right{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+.cosuno-right h3{
+  color: var(--Global-black, #181818);
+
+/* Display 2/Semibold */
+font-family: "Fira Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px; /* 126.667% */
+margin-bottom: 0;
+}
+.cosuno-right p{
+  color: var(--Neutral-neutral-900, var(--Nuetral-nuetral-900, #373940));
+
+/* Text 3/Regular */
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-bottom: 0;
+max-width: 687px;
+}
+/*---------------------responsive-------------------*/
+@media (max-width:768px){
+  .efficient-partners-section{
+    padding: 0px 50px 50px 50px;
+  }
+  .moss-financial-management-section{
+    flex-direction: column;
+  }
+  .sender-digital-logic-section{
+    flex-direction: column-reverse;
+  }
+  .cosuno-construction-management-section{
+    flex-direction: column;
+  }
+}
+@media (max-width:768px){
+  .efficient-partners-section{
+    padding: 0px 16px 24px 16px
+  }
+ 
+}
   
   /*-------------------------contact us -------------------------*/
   .contact-section {
