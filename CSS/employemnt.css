@@ -161,11 +161,12 @@
     .navbar {
       padding: 12px;
       position: relative;
+      background:#fff;
     }
     .navbar-menu {
       display: none;
       position: absolute;
-      top: 60px;
+      top: 70px;
       flex-direction: column;
       width: 90%;
       padding: 20px;
@@ -185,7 +186,238 @@
     }
   }
   
+/*------------------------hero emp section---------------------------*/
+.hero-emp-section{
+  padding: 0px;
+}
+.hero-bg-img{
+  background-image: url(/assets/hero-emp-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+ 
+  flex-direction: column;
+}
+.hero-content .hero-btn{
 
+padding: 6px 16px;
+
+color: var(--body-white, #FBFBFB);
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+border-radius: 36px;
+border: 1px solid var(--Nuetral-nuetral-100, #D9DADF);
+}
+.hero-content .hero-description{
+  color: var(--Global-white, var(--Global-white, #FFF));
+text-align: center;
+
+/* Display 3/Semibold */
+font-family: "Fira Sans";
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 122.727% */
+letter-spacing: -0.88px;
+max-width: 1111px;
+}
+/*---------------------responsive--------------------*/
+@media (max-width:768px){
+  .hero-emp-section{
+    padding: 0px;
+  }
+  .hero-content{
+    padding: 65px 32px;
+  }
+}
+@media (max-width: 521px) {
+  .hero-emp-section{
+    padding: 0px;
+  }
+  .hero-bg-img{
+    min-height: 80vh;
+  }
+  .hero-description{
+    max-width: 353px;
+  }
+  .hero-content{
+    padding: 65px 0px;
+
+  }
+}
+/*---------------------------course overview--------------------*/
+.course-overview-section{
+  display: flex;
+padding: 80px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: var(--margin-margin-60px, 60px);
+align-self: stretch;
+background: var(--body-white, #FBFBFB);
+}
+.course-overview{
+  display: flex;
+align-items: flex-start;
+gap: 40px;
+align-self: stretch;
+}
+.course-overview img{
+  border-radius: 8px;
+}
+/*---------------course offering--------------------------*/
+.course-offering-section{
+  background: var(--secondary-950, #163036);
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+ gap: 40px;
+}
+.course-offer-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 18px;
+}
+.course-offer-head .course-offer-heading{
+  color: var(--body-white, #FBFBFB);
+
+/* Display 3/Semibold */
+font-family: "Fira Sans";
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 122.727% */
+letter-spacing: -0.88px;
+}
+
+.course-offer-head .course-offer-description{
+  color: var(--body-white, #FBFBFB);
+text-align: center;
+
+/* Text 3/Regular */
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+max-width: 1076px;
+}
+.course-offering-section .course-offer-btn{
+  border-radius: 8px;
+background: var(--Primary-500, #FCA311);
+color: var(--body-white, #FBFBFB);
+text-align: center;
+
+/* Text 3/Regular */
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+
+padding: 16px;
+
+}
+/*------------responsive------------*/
+@media (max-width:768px){
+  .course-offering-section{
+    padding: 50px;
+  }
+}
+@media (max-width:521px){
+  .course-offering-section{
+    padding: 24px 16px;
+  }
+}
+/*----------------success section--------------------*/
+.success-section{
+  padding: 60px 80px;
+}
+.success-cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 24px;
+}
+.success-cards .success-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 24px;
+  gap: 8px;
+}
+.success-card .success-amount{
+  color: var(--Primary-500, #FCA311);
+
+/* Display 3/Semibold */
+font-family: "Fira Sans";
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 122.727% */
+letter-spacing: -0.88px;
+}
+.success-card .success-heading{
+  color: var(--Global-black, #181818);
+
+/* Display 1/Semibold */
+font-family: "Fira Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+}
+.success-card .success-description{
+  color: var(--Neutral-neutral-900, var(--Nuetral-nuetral-900, #373940));
+
+/* Text 3/Regular */
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+max-width: 254px;
+}
+/*---------------------responsive-----------------------*/
+@media (max-width: 768px) {
+  .success-section{
+    padding: 50px;
+  }
+  .success-cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+  }
+}
+@media (max-width: 521px) {
+  .success-section{
+    padding: 24px 16px;
+    
+  }
+  .success-cards{
+    grid-template-columns: 1fr;
+    gap: 0px;
+    
+  }
+}
   /*------------------------career----------------------*/
 .career-section {
     display: flex;

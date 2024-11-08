@@ -165,7 +165,7 @@
     .navbar-menu {
       display: none;
       position: absolute;
-      top: 60px;
+      top: 70px;
       flex-direction: column;
       width: 90%;
       padding: 20px;

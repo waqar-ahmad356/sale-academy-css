@@ -159,13 +159,14 @@
 }
 @media (max-width: 768px) {
   .navbar {
-    padding: 12px;
+    padding: 0px;
+    background-color: #fff;
     position: relative;
   }
   .navbar-menu {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 70px;
     flex-direction: column;
     width: 90%;
     padding: 20px;
@@ -1376,8 +1377,9 @@
   font-weight: 400;
   line-height: 24px; /* 150% */
 }
-.career-card .career-img {
-  max-width: 250px;
+.career-card .img-fluid {
+  min-width: 100%;
+  height: auto;
   border-radius: 18px;
 }
 .career-read-more span {
