@@ -324,11 +324,17 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 }
+.team-member-section .carousel{
+  display: none;
+} 
 /*----------------------responsive----------------------------*/
 @media (max-width:768px){
   .team-member-section{
     padding: 50px;
   }
+  .team-member-section .carousel{
+    display: none;
+  } 
   .team-member-cards{
     grid-template-columns: 1fr 1fr;
   }
@@ -352,7 +358,22 @@ line-height: 24px; /* 150% */
     padding: 24px 16px;
   }
   .team-member-cards{
+    display: none;
     grid-template-columns: 1fr;
+  }
+  .team-member-section .carousel-control-prev,.carousel-control-next{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    top: 150px;
+    
+    
+  }
+  .team-member-section .carousel-control-prev{
+    left: -15px;
+  }
+  .team-member-section .carousel-control-next{
+    right: -15px;
   }
   .team-member-category{
     
