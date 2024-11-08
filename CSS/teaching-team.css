@@ -187,7 +187,61 @@
   
 
   
+/*-------------------------teaching team--------------------------*/
+.teaching-team-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 80px 80px 0px 80px;
+}
+.team-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
 
+  gap: 8px ;
+}
+.team-btn{
+  border-radius: 36px;
+border: 1px solid var(--Nuetral-nuetral-100, #D9DADF);
+color: var(--Neutral-neutral-800, var(--Nuetral-nuetral-800, #484A54));
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+max-width: fit-content;
+
+padding: 6px 16px;
+
+}
+.team-head .team-heading{
+  color: var(--Global-black, #181818);
+text-align: center;
+
+/* Display 3/Semibold */
+font-family: "Fira Sans";
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 122.727% */
+letter-spacing: -0.88px;
+}
+.team-description .description{
+  color: var(--Neutral-neutral-900, var(--Nuetral-nuetral-900, #373940));
+text-align: center;
+
+/* Text 3/Regular */
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+max-width: 950px;
+}
   
   /*-------------------------contact us -------------------------*/
   .contact-section {
