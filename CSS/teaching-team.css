@@ -361,6 +361,9 @@ line-height: 24px; /* 150% */
     display: none;
     grid-template-columns: 1fr;
   }
+  .team-member-section .carousel{
+    display: block;
+  } 
   .team-member-section .carousel-control-prev,.carousel-control-next{
     width: 32px;
     height: 32px;
