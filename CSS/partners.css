@@ -112,7 +112,7 @@
   /*-------------------------------------- Responsive styles-------------------------------------- */
   @media (max-width: 1024px) {
     .navbar {
-      background: var(--Nuetral-nuetral-50, #f3f3f5);
+      background: #fff;
   
       display: flex;
       align-items: center;
