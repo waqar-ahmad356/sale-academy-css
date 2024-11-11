@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sale-academy-css.vercel.app/sitemap.xml
