@@ -451,7 +451,12 @@
     grid-template-columns: 1fr;
   }
   .course-certificate .course-certificate-cards {
+    
     grid-template-columns: 1fr;
+  }
+  .course-certificate-cards .course-certificate-card {
+    padding: 24px 16px;
+   
   }
 }
 /*---------------course offering--------------------------*/
