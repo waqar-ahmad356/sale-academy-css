@@ -14,11 +14,14 @@
   /*-------------------navbar-----------------------*/
   .navbar {
     background: var(--Nuetral-nuetral-50, #f3f3f5);
+    position: sticky;
+z-index: 1111;
+top: 0;
   
     display: flex;
     align-items: center;
     gap: 94px;
-    padding: 16px 80px;
+    padding: 16px 0px;
     color: #181818;
   }
   
@@ -111,13 +114,16 @@
   
   /*-------------------------------------- Responsive styles-------------------------------------- */
   @media (max-width: 1024px) {
+    .container{
+      padding: 0 40px;
+    }
     .navbar {
       background: var(--Nuetral-nuetral-50, #f3f3f5);
   
       display: flex;
       align-items: center;
       gap: 40px;
-      padding: 16px 40px;
+      padding: 16px 0px;
       color: #181818;
     }
   
@@ -158,6 +164,9 @@
     }
   }
   @media (max-width: 768px) {
+    .container{
+      padding: 0px 0px;
+    }
     .navbar {
       padding: 12px;
       position: relative;
@@ -194,7 +203,7 @@
   justify-content: center;
   align-items: center;
   
-  padding: 80px 80px 0px 80px;
+  padding: 160px 80px 0px 80px;
 }
 .team-head{
   display: flex;
@@ -620,9 +629,10 @@ line-height: 24px; /* 150% */
     display: flex;
     gap: 71px;
   }
-  .footer-right span {
+  .footer-right a {
     color: var(--body-white, #fbfbfb);
     text-align: center;
+    text-decoration: none;
   
     /* Text 3/Regular */
     font-family: "Fira Sans";
